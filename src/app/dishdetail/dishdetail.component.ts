@@ -49,6 +49,7 @@ const DISH = {
 export class DishdetailComponent implements OnInit {
 
   dish = DISH;
+  comments = DISH.comments;
 
   constructor() { }
 
